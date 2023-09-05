@@ -5,7 +5,7 @@ let lastName = document.getElementById("lastName");
 let birthday = document.getElementById("birthday");
 let btnSubmit = document.getElementById("submit")
 
-h
+
 async function postInformation(URL){
 
 //Creo el objeto que va a enviarse a la URL
