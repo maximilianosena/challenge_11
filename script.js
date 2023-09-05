@@ -17,8 +17,8 @@ const metodo = {
     body: JSON.stringify(information),
 };
 
-async function postInformation(URL, metodo){
-    let response = await fetch (URL)
+async function postInformation(URL){
+    let response = await fetch (URL, metodo)
     if (response.ok) {
         console.log("Estado: ", response.status)
 
